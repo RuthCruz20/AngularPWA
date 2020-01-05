@@ -8,7 +8,6 @@
   <meta name="Description" content="Portfolio Progressive Web App.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico">
-  <link rel="manifest" href="manifest.webmanifest">  
   <style>*, ::after,::before {box-sizing: border-box;}</style>
   <style>html,body{margin: 0;scroll-behavior: smooth;}</style>
   
@@ -18,6 +17,12 @@
   <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpj">
   <meta property="og:url" content="https://jacinto.desing/">
   <meta name="twitter:card" content="summary_large_image">
+  <!-- PWA Compat -->
+  <link rel="manifest" href="manifest.webmanifest">  
+  <script async   src="https://cdn.jsdelivr.net/npm/pwacompat@2.0.6/pwacompat.min.js"
+    integrity="sha384-GOaSLecPIMCJksN83HLuYf9FToOiQ2Df0+0ntv7ey8zjUHESXhthwvq9hXAZTifA"
+    crossorigin="anonymous">
+  </script>
 </head>
 <body>
   <app-root></app-root>
